@@ -1,0 +1,109 @@
+.primary-color {
+  background-color: lightcyan;
+}
+
+.secondary-color {
+  background-color: lightblue;
+}
+
+.accent-color {
+  background-color: lightcoral;
+}
+
+body {
+  background-color: #232323;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.form {
+  text-align: left;
+  width: 90%;
+  height: 300px;
+  margin: auto;
+}
+
+.walls {
+  position: relative;
+  width: 90%;
+  height: 400px;
+  margin: 20px auto;
+}
+
+.wall-accent {
+  position: absolute;
+  left: 20%;
+  width: 15%;
+  height: 400px;
+}
+
+.couch {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 35%;
+  height: 40%;
+}
+
+.cushion {
+  position: absolute;
+  border: black 1px solid;
+}
+
+.cushion.side {
+  height: 100%;
+  width: 10%;
+}
+
+.cushion.side.left {
+  left: 0;
+}
+
+.cushion.side.right {
+  right: 0;
+}
+
+.cushion.center {
+  height: 80%;
+  width: 40%;
+  top: 0;
+}
+
+.cushion.center.left {
+  left: 10%;
+}
+
+.cushion.center.right {
+  right: 10%;
+}
+
+.pillow {
+  position: absolute;
+  left: 10%;
+  width: 20%;
+  height: 0;
+  padding-bottom: 20%;
+  border-radius: 50%;
+}
+
+.table {
+  position: absolute;
+  left: 42%;
+  bottom: 0;
+  width: 10%;
+  height: 35%;
+}
+
+.table .foot {
+  position: absolute;
+  width: 10%;
+  height: 100%;
+}
+
+.table .top {
+  position: absolute;
+  left: -42%;
+  width: 100%;
+  height: 10%;
+}
